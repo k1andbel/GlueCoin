@@ -122,8 +122,8 @@ public:
 
         genesis = CreateGenesisBlock(1537153418, 138548, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x5e036a93ead2a588c0da59e582d6de3c8cffa3601b243b225e69611ce8a1e58a"));
+        assert(genesis.hashMerkleRoot == uint256S("0xcabb37032fbc173a8502e32639da4b1f645b0e33290e5cbdf784ed0d4ab1eb4b"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         //vSeeds.emplace_back("seed-a.litecoin.loshan.co.uk");
