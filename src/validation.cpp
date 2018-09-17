@@ -48,7 +48,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "Litecoin cannot be compiled without assertions."
+# error "Gluecoin cannot be compiled without assertions."
 #endif
 
 #define MICRO 0.000001
@@ -238,7 +238,7 @@ CTxMemPool mempool(&feeEstimator);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "Litecoin Signed Message:\n";
+const std::string strMessageMagic = "Gluecoin Signed Message:\n";
 
 // Internal stuff
 namespace {
