@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Gluecoin addresses</source>
-        <translation>글루코인을 주소의 전자 서명 확인을 위해 첨부된 메시지가 있을 경우 이를 검증할 수 있습니다.</translation>
+        <translation>글루코인 주소의 전자 서명 확인을 위해 첨부된 메시지가 있을 경우 이를 검증할 수 있습니다.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>지불 요청하기 (QR코드와 라이트코인을이 생성됩니다: URIs)</translation>
+        <translation>지불 요청하기 (QR코드와 글루코인이 생성됩니다: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -439,7 +439,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Gluecoin network</source>
-        <translation><numerusform>라이트코인을 네트워크에 %n개의 연결이 활성화되어 있습니다.</numerusform></translation>
+        <translation><numerusform>글루코인 네트워크에 %n개의 연결이 활성화되어 있습니다.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,7 +483,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Gluecoin command-line options</source>
-        <translation>사용할 수 있는 라이트코인을 명령줄 옵션 목록을 가져오기 위해 %1 도움말 메시지를 표시합니다.</translation>
+        <translation>사용할 수 있는 글루코인 명령줄 옵션 목록을 가져오기 위해 %1 도움말 메시지를 표시합니다.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,7 +553,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Gluecoin can no longer continue safely and will quit.</source>
-        <translation>치명적인 오류가 발생했습니다. 라이트코인을을 더이상 안전하게 진행할 수 없어 곧 종료합니다.</translation>
+        <translation>치명적인 오류가 발생했습니다. 글루코인을 더이상 안전하게 진행할 수 없어 곧 종료합니다.</translation>
     </message>
 </context>
 <context>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Gluecoin address.</source>
-        <translation>입력한 "%1" 주소는 올바른 라이트코인을 주소가 아닙니다.</translation>
+        <translation>입력한 "%1" 주소는 올바른 글루코인 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Gluecoin</source>
-        <translation>라이트코인을</translation>
+        <translation>글루코인</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -919,11 +919,11 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>최근 거래는 아직 보이지 않을 것입니다, 그러므로 당신의 지갑의 잔액이 틀릴 수도 있습니다. 이 정보는 라이트코인을 네트워크와 완전한 동기화가 완료되면 아래의 설명과 같이 정확해집니다.</translation>
+        <translation>최근 거래는 아직 보이지 않을 것입니다, 그러므로 당신의 지갑의 잔액이 틀릴 수도 있습니다. 이 정보는 글루코인을 네트워크와 완전한 동기화가 완료되면 아래의 설명과 같이 정확해집니다.</translation>
     </message>
     <message>
         <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>아직 표시되지 않은 거래의 영향을 받는 라이트코인을을 사용하려고 하는 것은 네트워크에서 허가되지 않습니다.</translation>
+        <translation>아직 표시되지 않은 거래의 영향을 받는 글루코인을 사용하려고 하는 것은 네트워크에서 허가되지 않습니다.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1109,7 +1109,7 @@
     </message>
     <message>
         <source>Connect to the Gluecoin network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 프록시를 통해 라이트코인을 네트워크 연결</translation>
+        <translation>SOCKS5 프록시를 통해 글루코인 네트워크 연결</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1145,7 +1145,7 @@
     </message>
     <message>
         <source>Connect to the Gluecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Tor 서비스를 경유하여 라이트코인을 네트워크에 연결하기 위해 분리된 SOCKS5 프록시를 사용.</translation>
+        <translation>Tor 서비스를 경유하여 글루코인 네트워크에 연결하기 위해 분리된 SOCKS5 프록시를 사용.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1252,7 +1252,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Gluecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래된 것 같습니다. 라이트코인을 네트워크에 연결하고 난 다음에 지갑을 자동으로 동기화 하지만, 아직 과정이 끝나지는 않았습니다.</translation>
+        <translation>표시된 정보가 오래된 것 같습니다. 글루코인 네트워크에 연결하고 난 다음에 지갑을 자동으로 동기화 하지만, 아직 과정이 끝나지는 않았습니다.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1327,7 +1327,7 @@
     </message>
     <message>
         <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>라이트코인을을 시작할 수 없습니다: 지급제어기를 클릭하세요</translation>
+        <translation>글루코인을 시작할 수 없습니다: 지급제어기를 클릭하세요</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1343,7 +1343,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Gluecoin address or malformed URI parameters.</source>
-        <translation>URI의 파싱에 문제가 발생했습니다. 잘못된 라이트코인을 주소나 URI 파라미터 구성에 오류가 존재할 수 있습니다.</translation>
+        <translation>URI의 파싱에 문제가 발생했습니다. 잘못된 글루코인 주소나 URI 파라미터 구성에 오류가 존재할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1869,7 +1869,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Gluecoin network.</source>
-        <translation>지불 요청에 첨부되는 선택가능한 메시지 입니다. 이 메세지는 요청이 열릴 때 표시될 것 입니다. 메모: 이 메시지는 라이트코인을 네트워크로 전송되지 않습니다.</translation>
+        <translation>지불 요청에 첨부되는 선택가능한 메시지 입니다. 이 메세지는 요청이 열릴 때 표시될 것 입니다. 메모: 이 메시지는 글루코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2114,7 +2114,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>블록의 용량보다 거래의 용량이 작은 경우에는 최소한의 수수료만으로도 충분합니다. 그러나 글루코인을 네트워크의 처리량보다 더 많은 거래 요구는 영원히 검증이 안 될 수도 있습니다.</translation>
+        <translation>블록의 용량보다 거래의 용량이 작은 경우에는 최소한의 수수료만으로도 충분합니다. 그러나 글루코인 네트워크의 처리량보다 더 많은 거래 요구는 영원히 검증이 안 될 수도 있습니다.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2330,7 +2330,7 @@
     </message>
     <message>
         <source>The Gluecoin address to send the payment to</source>
-        <translation>이 글루코인을 주소로 송금됩니다</translation>
+        <translation>이 글루코인 주소로 송금됩니다</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2378,7 +2378,7 @@
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Gluecoin network.</source>
-        <translation>글루코인을에 첨부된 메시지: 참고용으로 거래와 함께 저장될 URI. 메모: 이 메시지는 글루코인을 네트워크로 전송되지 않습니다.</translation>
+        <translation>글루코인에 첨부된 메시지: 참고용으로 거래와 함께 저장될 URI. 메모: 이 메시지는 글루코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2459,7 +2459,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Gluecoin address</source>
-        <translation>여러분의 글루코인을 주소를 증명하려면 메시지 서명하십시오</translation>
+        <translation>여러분의 글루코인 주소를 증명하려면 메시지 서명하십시오</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3300,7 +3300,7 @@
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>경고: 현재 글루코인을 버전이 다른 네트워크 참여자들과 동일하지 않은 것 같습니다. 당신 또는 다른 참여자들이 동일한 글루코인을 버전으로 업그레이드 할 필요가 있습니다.</translation>
+        <translation>경고: 현재 글루코인 버전이 다른 네트워크 참여자들과 동일하지 않은 것 같습니다. 당신 또는 다른 참여자들이 동일한 글루코인 버전으로 업그레이드 할 필요가 있습니다.</translation>
     </message>
     <message>
         <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>

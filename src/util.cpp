@@ -82,8 +82,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "litecoin.conf";
-const char * const BITCOIN_PID_FILENAME = "litecoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "gluecoin.conf";
+const char * const BITCOIN_PID_FILENAME = "gluecoind.pid";
 const char * const DEFAULT_DEBUGLOGFILE = "debug.log";
 
 ArgsManager gArgs;
@@ -596,7 +596,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Gluecoin";
 #else
     // Unix
-    return pathRet / ".litecoin";
+    return pathRet / ".gluecoin";
 #endif
 #endif
 }
