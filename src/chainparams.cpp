@@ -103,7 +103,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000c1bfe2bbe614f41260");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x66f49ad85624c33e4fd61aa45c54012509ed4a53308908dd07f56346c7939273"); //1441280
@@ -120,9 +120,9 @@ public:
         nDefaultPort = 9458;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1537153418, 138548, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1538039234, 661269, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x5e036a93ead2a588c0da59e582d6de3c8cffa3601b243b225e69611ce8a1e58a"));
+        assert(consensus.hashGenesisBlock == uint256S("0x553dc193d5c115d239985271e60c435e4061f1dfde36209b2e64a7ff869ce338"));
         assert(genesis.hashMerkleRoot == uint256S("0xcabb37032fbc173a8502e32639da4b1f645b0e33290e5cbdf784ed0d4ab1eb4b"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
@@ -198,7 +198,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000001df7b5aa1700ce");
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x1efb29c8187d5a496a33377941d1df415169c3ce5d8c05d055f25b683ec3f9a3"); //612653
