@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>지불 요청하기 (QR코드와 글루코인이 생성됩니다: URIs)</translation>
+        <translation>지불 요청하기 (QR코드와 글루코인 URIS가 생성됩니다)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,8 +430,8 @@
         <translation>한번 이상 사용된 받는 주소와 주소 제목의 목록을 보여줍니다.</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>litecoin: URI 또는 지불요청 열기</translation>
+        <source>Open a gluecoin: URI or payment request</source>
+        <translation>gluecoin: URI 또는 지불요청 열기</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
