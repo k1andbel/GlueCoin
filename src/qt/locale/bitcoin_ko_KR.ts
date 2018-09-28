@@ -2925,7 +2925,7 @@
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>버려진 거래</translation>
+        <translation>거래 취소</translation>
     </message>
     <message>
         <source>Increase transaction fee</source>
